@@ -43,7 +43,7 @@ export default function Home() {
           <div className=" text-center p-10 ">
             <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-6xl">R Fajri Nandipinto</h2>
             <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">Web Developer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white"> Hi,  Im a front-end developer with experience creating dynamic, user-friendly websites. My front-end development expertise includes HTML5, CSS3, JavaScript, React, and Next, and I have experience with a variety of frameworks and libraries. Im also well-versed in responsive design and mobile-first development. With my expansive skill set and dedication to quality, Im able to create websites that are attractive, intuitive, and optimized for speed and performance. Contact me today to discuss your next web development project.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white"> Hi,  Im a front-end developer with experience creating dynamic, user-friendly websites. My front-end development expertise includes HTML5, CSS3, Tailwind, JavaScript, React, and Next, and I have experience with a variety of frameworks and libraries. Im also well-versed in responsive design and mobile-first development. With my expansive skill set and dedication to quality, Im able to create websites that are attractive, intuitive, and optimized for speed and performance. Contact me today to discuss your next web development project.</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
@@ -70,29 +70,20 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={design} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Creating elegant designs suited for your needs following core design theory.</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Ilustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="py-2">Creating elegant website suited for your needs following core design theory with Tailwind CSS.</p>
+              
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Creating elegant designs suited for your needs following core design theory.</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Ilustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h3 className="text-lg font-medium pt-8 pb-2">Clean Code</h3>
+              <p className="py-2">Provide clean code base , Easy to read and Develop using EsLint.</p>
+              
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={consulting} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
-              <p className="py-2">Creating elegant designs suited for your needs following core design theory.</p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Ilustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h3 className="text-lg font-medium pt-8 pb-2">Best Performance</h3>
+              <p className="py-2">Using Next.js SSR to improve Website performance.</p>
+              
             </div>
           </div>
         </section>
