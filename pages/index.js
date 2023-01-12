@@ -1,18 +1,18 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
-import rfajrin from "../public/dev-ed-wave.png";
-import design from "../public/design.png";
+import { useState } from "react";
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
+import design from "../public/design.png";
+import rfajrin from "../public/dev-ed-wave.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -59,7 +59,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white ">
-              Since the beginning of my journey as a freelance designer and developer, I've done remote work for
+              Since the beginning of my journey as a freelance designer and developer, I&#39;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products for both business and consumer use.
@@ -101,7 +101,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white ">
-              Since the beginning of my journey as a freelance designer and developer, I've done remote work for
+              Since the beginning of my journey as a freelance designer and developer, I&#39;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products for both business and consumer use.
